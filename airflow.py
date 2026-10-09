@@ -13,7 +13,7 @@ def say_hello():
 # Create the DAG
 with DAG(
     dag_id="hello_airflow_dag",
-    start_date=datetime(2026, 1, 1),
+    start_date=datetime(2026, 1, 5),
     schedule="@daily",
     catchup=False,
 ) as dag:
